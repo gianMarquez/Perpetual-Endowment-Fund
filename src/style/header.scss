@@ -1,0 +1,56 @@
+.header-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    height: 300px;
+    background-color: #FCFCFC;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    font-weight: 580;
+
+
+
+    .first-logo{
+        display: flex;
+        justify-content: space-around;
+
+        img{
+            height: 250px;
+
+        }
+    }
+    
+    .bottega-logo img{
+        height: 120px;
+        margin-bottom: -15px;
+        margin-left: 15%;
+    }
+}  
+
+  
+  .typewriter h1 {
+    width: 700px;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin-right: 5% auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+  }

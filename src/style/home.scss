@@ -1,0 +1,77 @@
+.home-body{
+    background-color: #F9F9F9;
+    font-size: 2em;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.first-txt{
+    margin: 6vw;
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        font-family: 'Roboto Mono', monospace;
+        text-align: center;
+    }
+
+    .square{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px;
+
+        .top{
+            margin: 15px;
+        }
+        .mid{
+            margin: 15px;
+        }
+        .bot{
+            margin: 30px;
+        }
+    }
+}
+
+.second-txt{
+    margin: 6vw;
+    justify-content: space-between;
+
+    h2{
+        font-family: 'Roboto Mono', monospace;
+    }
+    ol{
+        margin: 2vw;
+        line-height: 2.8vh;
+    }
+    .income{
+        margin-left: 3vw;
+    }
+}
+
+.thirt-txt{
+    margin: 6vw;
+
+    .chash-flow-list{
+        margin-left: 3vw;
+        line-height: 4.4vh;
+    }
+    .sales-isa-list{
+        margin-left: 3vw;
+        line-height: 4.4vh;
+
+    }
+}
+
+.more-info{
+    margin: 5vw;
+    display: flex;
+    flex-direction: row;
+
+    .formore-info{
+        margin: 1vh;
+    }
+
+    .contact-info{
+        margin-left: 20px;
+    }
+}

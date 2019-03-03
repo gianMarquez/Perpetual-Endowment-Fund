@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import TegaLogo from "../../../static/assets/images/Bottega-logo.png"
+import EQLogo from "../../../static/assets/images/equity.jpg"
 
 export default class Header extends Component {
   constructor(props) {
@@ -9,12 +11,12 @@ export default class Header extends Component {
     return (
       <div className='header-body'>
         <div className="first-logo">
-          <img src="../../../static/assets/images/equity.jpg" alt="equity"/>
+          <img src={EQLogo} alt="equity"/>
         </div>
 
         <div  className="bottega-logo" >
           <a href="https://bottega.tech/" target="_blank">
-            <img src="../../../static/assets/images/Bottega-logo.png" alt="bottega"/>
+            <img src={TegaLogo} alt="bottega"/>
           </a>
         
           <div className="typewriter">

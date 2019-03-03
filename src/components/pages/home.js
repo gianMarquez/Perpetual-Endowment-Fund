@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import Header from "../nav-components/header";
 import Footer from "../nav-components/footer"
+import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
+import Flip from 'react-reveal/Flip';
 
 
 export default class Home extends Component {
@@ -8,8 +11,10 @@ export default class Home extends Component {
     return (
       <div className='home-body'>
         <Header/>
-        <div className="first-txt">
+        
+        <div className="first-txt" id="first-txt" >
           <h1>SUMMARY</h1>
+          
           <p>It is our pleasure to describe the general terms of our financing plan. If you desire more information, please
           contact us as listed on the next page</p>
 
@@ -22,6 +27,7 @@ export default class Home extends Component {
           below.</p>
 
           <div className="square">
+          <Slide right>
             <div className="top">
               <b>Instrument:</b> &emsp; Secured Promissory Note.<br/>
               <b>Security:</b> &emsp; &emsp; &nbs;Senior position in an undivided interest in the pool of ISA’s. (See below).<br/>
@@ -31,19 +37,23 @@ export default class Home extends Component {
               The three term / yield options:
             </div>
             <div className="bot">
-              <b>Term:</b>  &emsp;2 years &emsp;3 years &emsp; 4 years <br/>
-              <b>Interest:</b> &emsp;8% &emsp; &emsp; &nbsp;9% &emsp; &emsp; &nbsp;10%
+              <b>Term:</b>  &emsp;&emsp;&emsp;&nbsp;&nbsp;2 years | &emsp;3 years | &emsp; 4 years <br/>
+              <b>Interest:</b> &emsp;&emsp;&emsp;&nbsp;&nbsp;8% &nbsp;&nbsp;| &emsp; &emsp; &nbsp;9% | &emsp; &emsp; &nbsp;10%
             </div>
+          </Slide>
           </div>
         </div>
-
-        <div className="second-txt">
+        
+        <div className="second-txt" id="second-txt">
           <h2>
             <u>Security Description:</u>
           </h2>
+
+          <Fade bottom>
           <div>
             The security assets are Income Share Agreements (ISA’s). In general terms, these are defined as:
           </div>
+
           <p className="income">
             <i>An Income Share Agreement is a form of revenue-based investing, where an investor provides capital to
             an individual or a company and that capital is invested in a way that improves the income of the
@@ -57,76 +67,104 @@ export default class Home extends Component {
             and become an employed worker. There are significant terms that increase the security and value of these ISA
             assets over more traditional loans, including:
           </p>
+          </Fade>
+
           <ol>
-            <li>
-              Bottega’s block of ISA’s consists of hundreds of smaller contracts, making them highly resistant to individual contract issues.
-            </li>
-            
-            <br/>
 
-            <li>
-              ISA terms range from 24 to 48 monthly payments and generate greater revenues than standard amortization loans, increasing the revenue of an ISA contract over traditional loans.
-            </li>
+           <Flip top>
+              <li>
+                Bottega’s block of ISA’s consists of hundreds of smaller contracts, making them highly resistant to individual contract issues.
+              </li>
+            </Flip>
 
             <br/>
 
-            <li>
-              The additional $1 million each month will increase the value and security of the pool.
-            </li>
+            <Flip top>
+              <li>
+                ISA terms range from 24 to 48 monthly payments and generate greater revenues than standard amortization loans, increasing the revenue of an ISA contract over traditional loans.
+              </li>
+            </Flip>
+
+            <br/>
+    
+            <Flip top>
+              <li>
+                The additional $1 million each month will increase the value and security of the pool.
+              </li>
+            </Flip>
 
             <br/>
 
-            <li>
-              There is a ready and established market for ISA contracts, allowing liquidation in under 90-days.
-            </li>
+            <Flip top>
+              <li>
+                There is a ready and established market for ISA contracts, allowing liquidation in under 90-days.
+              </li>
+            </Flip>
 
             <br/>
 
-            <li>
-              Payments can be deducted directly from the employee’s paycheck and sent to Bottega, eliminating payment issues from individuals.
-            </li>
+            <Flip top>
+              <li>
+                Payments can be deducted directly from the employee’s paycheck and sent to Bottega, eliminating payment issues from individuals.
+              </li>
+            </Flip>
 
             <br/>
 
-            <li>
-              The requirement is for a specific number of payments at a percentage of their gross income; hence, any unemployment only delays payment and does not reduce the obligation.
-            </li>
+            <Flip top>
+              <li>
+                The requirement is for a specific number of payments at a percentage of their gross income; hence, any unemployment only delays payment and does not reduce the obligation.
+              </li>
+            </Flip>
 
             <br/>
 
-            <li>
-              Bankruptcy discharge is impossible due to the nature of revenue share contracts under U.C.C
-            </li>
+            <Flip top>
+              <li>
+                Bankruptcy discharge is impossible due to the nature of revenue share contracts under U.C.C
+              </li>
+            </Flip>
 
             <br/>
 
-            <li>
-              Payment revenue increases over time as they get a raise or a better job.
-            </li>
+            <Flip top>
+              <li>
+                Payment revenue increases over time as they get a raise or a better job.
+              </li>
+            </Flip>
 
             <br/>
 
-            <li>
-             Bottega has multiple accreditations, dramatically improving the value of a graduate in the job market versus most non-accredited, post-secondary occupational training institutions.
-            </li>
+            <Flip top>
+              <li>
+              Bottega has multiple accreditations, dramatically improving the value of a graduate in the job market versus most non-accredited, post-secondary occupational training institutions.
+              </li>
+            </Flip>
 
             <br/>
 
-            <li>
-              The market for Bottega’s graduates is highly underserved by almost 10 to 1, essentially guaranteeing an immediate job and starting the income stream.
-            </li>
+            <Flip top>
+              <li>
+                The market for Bottega’s graduates is highly underserved by almost 10 to 1, essentially guaranteeing an immediate job and starting the income stream.
+              </li>
+            </Flip>
 
             <br/>
 
-            <li>
-              As the Fund manages the ISA’s, any potentially adverse financial situations of Bottega itself have no effect on the security pledge.
-            </li>
+            <Flip top>
+              <li>
+                As the Fund manages the ISA’s, any potentially adverse financial situations of Bottega itself have no effect on the security pledge.
+              </li>
+            </Flip>
 
             <br/>
 
-            <li>
-             The investor will receive monthly statements detailing their account and general status of the fund as a whole.
-            </li>
+            <Flip top>
+              <li>
+              The investor will receive monthly statements detailing their account and general status of the fund as a whole.
+              </li>
+            </Flip>
+
           </ol>
         </div>
 
@@ -140,18 +178,31 @@ export default class Home extends Component {
             Therefore, the program was structured take advantage of this for security as follows:
           </p>
           <ul className="chash-flow-list">
+
+          <Slide right>
             <li>
               Note terms are equal to or longer than the ISA cash flows to accumulate the principal.
             </li>
+          </Slide>
+
+          <Slide right>
             <li>
               Cost of capital and principal combined are below the ISA cash flow total;
             </li>
+          </Slide>
+
+          <Slide right>
             <li>
               Allocation of twice the ISA’s, and hence the cash flow, needed per note; and 
             </li>
+          </Slide>
+
+          <Slide right>
             <li>
               Replacement of any non-performing ISA’s with performing ones
             </li>
+          </Slide>
+
           </ul>
           <p>
             Therefore, the <u>ISA cash flows alone</u> have the ability to recover all funds needed to repay the note.
@@ -164,18 +215,31 @@ export default class Home extends Component {
             Therefore, a good basis for recovery of the principal and any interest due, if necessary, is provided by the combination of:
           </p>
           <ul className="sales-isa-list">
+
+          <Slide right>
             <li>
               The note’s 2/1 security significantly exceeding the repayment amount;
             </li>
+          </Slide>
+
+          <Slide right>
             <li>
               The relatively short sale time;
             </li>
+          </Slide>
+
+          <Slide right>
             <li>
               The significant monthly increase in the ISA portfolio from Bottega’s activities; and
             </li>
+          </Slide>
+
+          <Slide right>
             <li>
               The already significant and growing market demand for ISA contracts.
             </li>
+          </Slide>
+
           </ul>
 
         </div>

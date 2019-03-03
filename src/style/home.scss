@@ -1,20 +1,20 @@
 .home-body{
     margin-top: 15px;
     background-color: #F9F9F9;
-    font-size: 2.5em;
+    font-size: 1.5em;
     font-family: 'Nunito Sans', sans-serif;
 }
 
 .first-txt{
     margin: 6vw;
-    margin-top: 1vh;
+    margin-top: 2vh;
     display: flex;
     flex-direction: column;
 
     h1{
         font-family: 'Roboto Mono', monospace;
         text-align: center;
-        font-size: 2em;
+        font-size: 1.8em;
         text-shadow: 2px 5px rgba(0, 0, 0, 0.32);
         margin-bottom: 15px;
     }
@@ -45,8 +45,9 @@
         font-size: 1.1em;
     }
     ol{
-        margin: 2vw;
+        margin: 2.5vh;
         line-height: 3vh;
+        font-size: 1.4rem;
     }
     .income{
         margin-left: 3vw;
@@ -58,16 +59,17 @@
 
     h2{
         font-family: 'Roboto Mono', monospace;
-        font-size: 1.1em;
+        font-size: 0.99em;
     }
     .chash-flow-list{
         margin-left: 3vw;
         line-height: 5.5vh;
+        font-size: 1.4rem;
     }
     .sales-isa-list{
         margin-left: 3vw;
         line-height: 5.8vh;
-
+        font-size: 1.4rem;
     }
 }
 
@@ -75,16 +77,16 @@
     margin: 5vw;
     display: flex;
     flex-direction: row;
-
-    h2{
-        font-family: 'Roboto Mono', monospace;
-        font-size: .9em;
-    }
+   
     .formore-info{
+        font-family: 'Roboto Mono', monospace;
+        font-size: .8em;
         margin: 1vh;
     }
 
     .contact-info{
         margin-left: 20px;
+        font-size: 1.4rem;
+
     }
 }

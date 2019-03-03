@@ -50,9 +50,11 @@ export default class Home extends Component {
           </h2>
 
           <Fade bottom>
-          <div>
+          <p className="security">
             The security assets are Income Share Agreements (ISA’s). In general terms, these are defined as:
-          </div>
+          </p>
+
+          <br/>
 
           <p className="income">
             <i>An Income Share Agreement is a form of revenue-based investing, where an investor provides capital to
@@ -60,112 +62,116 @@ export default class Home extends Component {
             recipient, while the investor takes an agreed percentage of the income for a specified period of time as
             payback.</i>
           </p>
-          <p>
-            Bottega’s students have the option to finance their coursework by executing an ISA. It must be noted these
-            are <u>not</u> “student loans” in the traditional sense. ISA’s are, in essence, a joint venture between the student and
-            the school with Bottega receiving a guaranteed percentage of the student’s gross income once they are hired
-            and become an employed worker. There are significant terms that increase the security and value of these ISA
-            assets over more traditional loans, including:
-          </p>
+          <br/>
           </Fade>
-
-          <ol>
-
-           <Flip top>
-              <li>
-                Bottega’s block of ISA’s consists of hundreds of smaller contracts, making them highly resistant to individual contract issues.
-              </li>
-            </Flip>
-
-            <br/>
-
-            <Flip top>
-              <li>
-                ISA terms range from 24 to 48 monthly payments and generate greater revenues than standard amortization loans, increasing the revenue of an ISA contract over traditional loans.
-              </li>
-            </Flip>
-
-            <br/>
-    
-            <Flip top>
-              <li>
-                The additional $1 million each month will increase the value and security of the pool.
-              </li>
-            </Flip>
-
-            <br/>
+          <div className="mid-bg">
+            <p>
+              Bottega’s students have the option to finance their coursework by executing an ISA. It must be noted these
+              are <u>not</u> “student loans” in the traditional sense. ISA’s are, in essence, a joint venture between the student and
+              the school with Bottega receiving a guaranteed percentage of the student’s gross income once they are hired
+              and become an employed worker. There are significant terms that increase the security and value of these ISA
+              assets over more traditional loans, including:
+            </p>
+            
+            <ol>
 
             <Flip top>
-              <li>
-                There is a ready and established market for ISA contracts, allowing liquidation in under 90-days.
-              </li>
-            </Flip>
+                <li>
+                  Bottega’s block of ISA’s consists of hundreds of smaller contracts, making them highly resistant to individual contract issues.
+                </li>
+              </Flip>
 
+              <br/>
+
+              <Flip top>
+                <li>
+                  ISA terms range from 24 to 48 monthly payments and generate greater revenues than standard amortization loans, increasing the revenue of an ISA contract over traditional loans.
+                </li>
+              </Flip>
+
+              <br/>
+      
+              <Flip top>
+                <li>
+                  The additional $1 million each month will increase the value and security of the pool.
+                </li>
+              </Flip>
+
+              <br/>
+
+              <Flip top>
+                <li>
+                  There is a ready and established market for ISA contracts, allowing liquidation in under 90-days.
+                </li>
+              </Flip>
+
+              <br/>
+
+              <Flip top>
+                <li>
+                  Payments can be deducted directly from the employee’s paycheck and sent to Bottega, eliminating payment issues from individuals.
+                </li>
+              </Flip>
+
+              <br/>
+
+              <Flip top>
+                <li>
+                  The requirement is for a specific number of payments at a percentage of their gross income; hence, any unemployment only delays payment and does not reduce the obligation.
+                </li>
+              </Flip>
+
+              <br/>
+
+              <Flip top>
+                <li>
+                  Bankruptcy discharge is impossible due to the nature of revenue share contracts under U.C.C
+                </li>
+              </Flip>
+
+              <br/>
+
+              <Flip top>
+                <li>
+                  Payment revenue increases over time as they get a raise or a better job.
+                </li>
+              </Flip>
+
+              <br/>
+
+              <Flip top>
+                <li>
+                Bottega has multiple accreditations, dramatically improving the value of a graduate in the job market versus most non-accredited, post-secondary occupational training institutions.
+                </li>
+              </Flip>
+
+              <br/>
+
+              <Flip top>
+                <li>
+                  The market for Bottega’s graduates is highly underserved by almost 10 to 1, essentially guaranteeing an immediate job and starting the income stream.
+                </li>
+              </Flip>
+
+              <br/>
+
+              <Flip top>
+                <li>
+                  As the Fund manages the ISA’s, any potentially adverse financial situations of Bottega itself have no effect on the security pledge.
+                </li>
+              </Flip>
+
+              <br/>
+
+              <Flip top>
+                <li>
+                The investor will receive monthly statements detailing their account and general status of the fund as a whole.
+                </li>
+              </Flip>
+
+            </ol>
             <br/>
-
-            <Flip top>
-              <li>
-                Payments can be deducted directly from the employee’s paycheck and sent to Bottega, eliminating payment issues from individuals.
-              </li>
-            </Flip>
-
-            <br/>
-
-            <Flip top>
-              <li>
-                The requirement is for a specific number of payments at a percentage of their gross income; hence, any unemployment only delays payment and does not reduce the obligation.
-              </li>
-            </Flip>
-
-            <br/>
-
-            <Flip top>
-              <li>
-                Bankruptcy discharge is impossible due to the nature of revenue share contracts under U.C.C
-              </li>
-            </Flip>
-
-            <br/>
-
-            <Flip top>
-              <li>
-                Payment revenue increases over time as they get a raise or a better job.
-              </li>
-            </Flip>
-
-            <br/>
-
-            <Flip top>
-              <li>
-              Bottega has multiple accreditations, dramatically improving the value of a graduate in the job market versus most non-accredited, post-secondary occupational training institutions.
-              </li>
-            </Flip>
-
-            <br/>
-
-            <Flip top>
-              <li>
-                The market for Bottega’s graduates is highly underserved by almost 10 to 1, essentially guaranteeing an immediate job and starting the income stream.
-              </li>
-            </Flip>
-
-            <br/>
-
-            <Flip top>
-              <li>
-                As the Fund manages the ISA’s, any potentially adverse financial situations of Bottega itself have no effect on the security pledge.
-              </li>
-            </Flip>
-
-            <br/>
-
-            <Flip top>
-              <li>
-              The investor will receive monthly statements detailing their account and general status of the fund as a whole.
-              </li>
-            </Flip>
-
-          </ol>
+          </div>
         </div>
 
         <div className="thirt-txt">

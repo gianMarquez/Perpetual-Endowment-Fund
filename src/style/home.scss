@@ -7,10 +7,11 @@
 
 .first-txt{
     margin: 6vw;
+    margin-bottom: 0;
     margin-top: 2vh;
     display: flex;
     flex-direction: column;
-
+    
     h1{
         font-family: 'Roboto Mono', monospace;
         text-align: center;
@@ -23,15 +24,23 @@
         display: grid;
         grid-template-columns: 1fr;
         padding: 50px;
+        background-color: #1C1C1C;
+        margin-left: -6vw;
+        margin-right: -6vw;
+        color: #fff;
+
+        b{
+            color: #00c274;
+        }
 
         .top{
-            margin: 15px;
+            margin: 15px 50px;
         }
         .mid{
-            margin: 15px;
+            margin: 15px 50px;
         }
         .bot{
-            margin: 30px;
+            margin: 30px 50px;
         }
     }
 }
@@ -40,31 +49,61 @@
     margin: 6vw;
     justify-content: space-between;
 
+
     h2{
         font-family: 'Roboto Mono', monospace;
         font-size: 1.1em;
     }
-    ol{
-        margin: 2.5vh;
-        line-height: 3vh;
-        font-size: 1.4rem;
+    .mid-bg{
+        background-image: url(../../static/assets/images/demo6.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: -6vw;
+            margin-right: -6vw;
+            color: #0F1020;
+
+            p{
+                margin-left: 6vw;
+                margin-right: 6vw; 
+            }
     }
+    ol{  
+       margin-left: 150px;
+
+        li{
+            object-fit: cover;
+            line-height: 5vh;
+            font-size: 1.4rem;  
+            margin: 0px 6vw;
+
+        }
+     
+    }
+
     .income{
-        margin-left: 3vw;
+        box-shadow: 20px 49px 27px -18px rgba(28,28,28,0.23);
     }
+
 }
 
 .thirt-txt{
     margin: 6vw;
 
+    b{
+        color: #00c274;
+    }
     h2{
         font-family: 'Roboto Mono', monospace;
         font-size: 0.99em;
     }
     .chash-flow-list{
+        
         margin-left: 3vw;
         line-height: 5.5vh;
         font-size: 1.4rem;
+
     }
     .sales-isa-list{
         margin-left: 3vw;

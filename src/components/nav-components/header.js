@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TegaLogo from "../../../static/assets/images/Bottega-logo.png"
-import EQLogo from "../../../static/assets/images/equity.jpg"
+import EQLogo from "../../../static/assets/images/equity-w.png"
 
 export default class Header extends Component {
   constructor(props) {
@@ -12,6 +12,7 @@ export default class Header extends Component {
       <div className='header-body'>
         <div className="first-logo">
           <img src={EQLogo} alt="equity"/>
+          <h1><b>Series E</b></h1>
         </div>
 
         <div  className="bottega-logo" >

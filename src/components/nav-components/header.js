@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TegaLogo from "../../../static/assets/images/Bottega-logo.png"
+import TegaLogo from "../../../static/assets/images/Bottega-green.png"
 import EQLogo from "../../../static/assets/images/equity-w.png"
 
 export default class Header extends Component {

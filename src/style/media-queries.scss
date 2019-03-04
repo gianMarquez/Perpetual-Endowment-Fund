@@ -1,8 +1,14 @@
-@media (max-width: 615px) {
-    
+@media (max-width: 650px) {
+    body{
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        background-clip: #ddd;
+    }
     .header-body{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         height: 400px;
         background-image: url(../../static/assets/images/topbg1.jpg);
 
@@ -17,7 +23,11 @@
         .bottega-logo{
             order: 3;
             margin-top: 10px;
-            margin-left: 40%;    
+            margin-left: 40%;
+            
+            img{
+                filter: invert(100%)
+            }
         }
         .typewriter h1{
             order: 4;
@@ -37,7 +47,7 @@
             }
 
             .square{
-                margin-right: -25;
+                margin-right: none;
 
                 .top{
                     margin-top: -25px;
@@ -64,16 +74,20 @@
                 font-size: 17px;
             }
             .income{
-                box-shadow: 5px 39px 55px -18px rgba(28,28,28,0.23);
+                padding: 10px;
+                box-shadow: none;
+                border-bottom: solid #00c274;
+                border-radius: 10px;
             }
             ol{  
                 margin-left: 5px;
                 background-color: #1C1C1C;
          
                  li{
+                     padding: 5px;
                      color: #f3f3f3;
                      object-fit: cover;
-                     line-height: 5vh;
+                     line-height: 3vh;
                      font-size: 0.9rem;  
                      margin: 0px 6vw;
          
@@ -88,6 +102,7 @@
         }
 
         .thirt-txt{
+            margin-top: -40px;
             h2{
                 font-size: 23px;
             }

@@ -6,6 +6,7 @@ export default class Footer extends Component {
       <div className='footer-body'>
         <div className="notice">
           <h1>
+            <br/>
             <b>NOTICE</b>
           </h1>
           <p>

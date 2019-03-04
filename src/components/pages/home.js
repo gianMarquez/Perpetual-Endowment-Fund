@@ -30,7 +30,7 @@ export default class Home extends Component {
           <Slide right>
             <div className="top">
               <b>Instrument:</b> &emsp; Secured Promissory Note.<br/>
-              <b>Security:</b> &emsp; &emsp; &nbs;Senior position in an undivided interest in the pool of ISA’s. (See below).<br/>
+              <b>Security:</b> &emsp; &emsp; Senior position in an undivided interest in the pool of ISA’s. <a href="#security">(See below).</a><br/>
               <b>Amount:</b> &emsp; &emsp; $100,000 or more.<br/>             
             </div>
             <div className="mid">
@@ -45,7 +45,7 @@ export default class Home extends Component {
         </div>
         
         <div className="second-txt" id="second-txt">
-          <h2>
+          <h2 id="security">
             <u>Security Description:</u>
           </h2>
 

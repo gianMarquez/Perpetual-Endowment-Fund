@@ -35,6 +35,14 @@
 
         .top{
             margin: 15px 50px;
+            a{
+                text-decoration: none;
+                color: #fff;
+
+                &:hover{
+                    color: #00c274;
+                }
+            }
         }
         .mid{
             margin: 15px 50px;

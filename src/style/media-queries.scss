@@ -1,0 +1,144 @@
+@media (max-width: 615px) {
+    
+    .header-body{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+
+        .first-logo{
+            order: 1;
+            margin-top: 10px;
+    
+            h1{
+            order: 2;
+            }
+        }
+        .bottega-logo{
+            order: 3;
+            margin-top: 10px;
+            margin-left: 40%;
+    
+            img{
+                background-position-x: 10%;
+            }
+        }
+        .typewriter h1{
+            order: 4;
+            margin-top: 10px;
+            font-size: 1.2rem;
+            margin-left: 8%;
+        }
+    }
+
+    .home-body{
+        .first-txt{
+            h1{
+                font-size: 35px;
+            }
+            p{
+                font-size: 20px;
+            }
+
+            .square{
+                .top{
+                    margin-top: -25px;
+                    margin-left: -15px;
+                    font-size: .8rem;
+                }
+                .mid{
+                    margin-left: -10px;
+                    font-size: 1rem; 
+                }
+
+                .bot{
+                    margin-left: -15px;
+                    font-size: .8rem;
+                }
+            }
+        }
+
+        .second-txt{
+            h2{
+                font-size: 21px;
+            }
+            p{
+                font-size: 17px;
+            }
+            .income{
+                box-shadow: 5px 39px 55px -18px rgba(28,28,28,0.23);
+            }
+            ol{  
+                margin-left: 5px;
+                background-color: #1C1C1C;
+         
+                 li{
+                     color: #f3f3f3;
+                     object-fit: cover;
+                     line-height: 5vh;
+                     font-size: 0.9rem;  
+                     margin: 0px 6vw;
+         
+                 }
+              
+             }
+
+             .mid-bg{
+                 background-image: none;
+             }
+        
+        }
+
+        .thirt-txt{
+            h2{
+                font-size: 23px;
+            }
+            p{
+                font-size: 17px;
+            }
+            .chash-flow-list{
+                margin-left: -5px;
+                font-size: 15px;
+            }
+            .sales-isa-list{
+                margin-left: -5px;
+                font-size: 15px;
+            }
+        }
+
+        .more-info{
+            display: grid;
+            grid-template-columns: 1fr;
+
+            .formore-info{
+                font-size: 17px;
+            }
+            .contact-info{
+                font-size: 14px;
+            }
+        }
+    }
+
+    .footer-body{
+
+        h1{
+            font-size: .99em;
+            padding: 15px;
+        }
+
+        P{
+            font-size: .9rem;
+        }
+
+        .address{
+            font-size: 0.5em;
+            word-spacing: 9px; 
+            padding: 10px;
+            border-top: solid #00c274;
+
+            &:hover{
+                color: #fff;
+                background-color: #207b88;
+            }
+        }
+    }
+}

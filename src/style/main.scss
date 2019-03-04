@@ -4,9 +4,12 @@
 @import "./media-queries.scss";
 
 body{
+    width: 100%;
+    height: 100%;
     margin: 0;
     border: 0;
     padding: 0;
+    overflow-x: hidden;
     background-clip: #ddd;
     align-items: center;
     align-self: auto;

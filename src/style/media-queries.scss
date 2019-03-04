@@ -11,13 +11,18 @@
         justify-content: center;
         height: 400px;
         background-image: url(../../static/assets/images/topbg1.jpg);
+        //filter: opacity(22%);
 
         .first-logo{
             order: 1;
             margin-top: 10px;
-    
+            filter: opacity(200%);
+            background-color: rgba(24, 20, 20, 0.63);
+            border-radius: 35%;
+
             h1{
             order: 2;
+            color: #ddd;
             }
         }
         .bottega-logo{
@@ -26,7 +31,7 @@
             margin-left: 40%;
             
             img{
-                filter: invert(100%)
+                filter: invert(100%);
             }
         }
         .typewriter h1{
@@ -41,9 +46,11 @@
         .first-txt{
             h1{
                 font-size: 35px;
+                margin-top: -10px;
             }
             p{
                 font-size: 20px;
+                margin-top: -5px;
             }
 
             .square{
@@ -69,11 +76,14 @@
         .second-txt{
             h2{
                 font-size: 21px;
+                margin-bottom: 30px;
             }
             p{
                 font-size: 17px;
+                margin-top: -25px;
             }
             .income{
+                margin-top: -50px;
                 padding: 10px;
                 box-shadow: none;
                 border-bottom: solid #00c274;
@@ -87,7 +97,8 @@
                      padding: 5px;
                      color: #f3f3f3;
                      object-fit: cover;
-                     line-height: 3vh;
+                     line-height: 22px;;
+                     
                      font-size: 0.9rem;  
                      margin: 0px 6vw;
          
@@ -102,7 +113,7 @@
         }
 
         .thirt-txt{
-            margin-top: -40px;
+            margin-top: -65px;
             h2{
                 font-size: 23px;
             }

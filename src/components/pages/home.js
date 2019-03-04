@@ -75,21 +75,19 @@ export default class Home extends Component {
             
             <ol>
 
+            <br/>
+            
             <Flip top>
                 <li>
                   Bottega’s block of ISA’s consists of hundreds of smaller contracts, making them highly resistant to individual contract issues.
                 </li>
               </Flip>
 
-              <br/>
-
               <Flip top>
                 <li>
                   ISA terms range from 24 to 48 monthly payments and generate greater revenues than standard amortization loans, increasing the revenue of an ISA contract over traditional loans.
                 </li>
               </Flip>
-
-              <br/>
       
               <Flip top>
                 <li>
@@ -97,15 +95,11 @@ export default class Home extends Component {
                 </li>
               </Flip>
 
-              <br/>
-
               <Flip top>
                 <li>
                   There is a ready and established market for ISA contracts, allowing liquidation in under 90-days.
                 </li>
               </Flip>
-
-              <br/>
 
               <Flip top>
                 <li>
@@ -113,15 +107,11 @@ export default class Home extends Component {
                 </li>
               </Flip>
 
-              <br/>
-
               <Flip top>
                 <li>
                   The requirement is for a specific number of payments at a percentage of their gross income; hence, any unemployment only delays payment and does not reduce the obligation.
                 </li>
               </Flip>
-
-              <br/>
 
               <Flip top>
                 <li>
@@ -129,15 +119,11 @@ export default class Home extends Component {
                 </li>
               </Flip>
 
-              <br/>
-
               <Flip top>
                 <li>
                   Payment revenue increases over time as they get a raise or a better job.
                 </li>
               </Flip>
-
-              <br/>
 
               <Flip top>
                 <li>
@@ -145,15 +131,11 @@ export default class Home extends Component {
                 </li>
               </Flip>
 
-              <br/>
-
               <Flip top>
                 <li>
                   The market for Bottega’s graduates is highly underserved by almost 10 to 1, essentially guaranteeing an immediate job and starting the income stream.
                 </li>
               </Flip>
-
-              <br/>
 
               <Flip top>
                 <li>
@@ -161,16 +143,16 @@ export default class Home extends Component {
                 </li>
               </Flip>
 
-              <br/>
-
               <Flip top>
                 <li>
                 The investor will receive monthly statements detailing their account and general status of the fund as a whole.
                 </li>
               </Flip>
-
+              <br/>
             </ol>
+
             <br/>
+
           </div>
         </div>
 

@@ -50,13 +50,13 @@
   .typewriter h1 {
     color: #DBDBDB;
     font-size: 2rem;
-    width: 550px;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     overflow: hidden; 
     border-right: .15em solid black; 
     white-space: nowrap; 
-    margin-right: 5% auto; 
+    margin-right: 3% auto; 
     letter-spacing: .10em; 
     animation: 
       typing 3.5s steps(25, end),
@@ -66,7 +66,7 @@
   
   @keyframes typing {
     from { width: 0 }
-    to { width: 570px }
+    to { width: 100% }
   }
   
   @keyframes blink-caret {

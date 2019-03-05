@@ -54,17 +54,23 @@
 }
 
 .second-txt{
-    margin: 6vw;
+    margin: 0px 6vw;
     justify-content: space-between;
-
 
     h2{
         font-family: 'Roboto Mono', monospace;
         font-size: 1.1em;
     }
+
+    .income{
+        border-bottom: solid #00c274;
+        border-radius: 0px 10px;
+
+    }
+
     .mid-bg{
-        background-image: url(../../static/assets/images/demo5.jpg);
-            background-attachment: fixed;
+            background-image: url(../../static/assets/images/demo4.jpg);
+            //background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -77,6 +83,7 @@
                 margin-right: 6vw; 
             }
     }
+
     ol{  
        margin-left: 150px;
 
@@ -87,17 +94,11 @@
             margin: 0px 6vw;
 
         }
-     
     }
-
-    .income{
-        box-shadow: 20px 49px 27px -18px rgba(28,28,28,0.23);
-    }
-
 }
 
 .thirt-txt{
-    margin: 6vw;
+    margin: 0vw 6vw ;
 
     b{
         color: #00c274;

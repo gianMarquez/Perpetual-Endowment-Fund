@@ -5,6 +5,11 @@
         align-items: center;
         background-clip: #ddd;
         overflow-x: hidden;
+/*        espacios
+
+        border
+        planta 
+        -pef- for saf*/
     }
     .header-body{
         display: flex;
@@ -27,7 +32,7 @@
         .bottega-logo{
             order: 3;
             margin-top: 10px;
-            margin-left: 40%;
+            margin-left: 0%;
         }
         .typewriter h1{
             color: #fff;
@@ -36,6 +41,7 @@
             margin-top: 10px;
             font-size: 1.2rem;
             margin-left: 8%;
+            width: 400px;
         }
     }
 
@@ -110,7 +116,7 @@
         }
 
         .thirt-txt{
-            margin-top: -65px;
+           // margin-top: -65px;
             h2{
                 font-size: 23px;
             }

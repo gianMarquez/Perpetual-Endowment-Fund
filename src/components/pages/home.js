@@ -54,15 +54,12 @@ export default class Home extends Component {
             The security assets are Income Share Agreements (ISA’s). In general terms, these are defined as:
           </p>
 
-          <br/>
-
           <p className="income">
             <i>An Income Share Agreement is a form of revenue-based investing, where an investor provides capital to
             an individual or a company and that capital is invested in a way that improves the income of the
             recipient, while the investor takes an agreed percentage of the income for a specified period of time as
             payback.</i>
           </p>
-          <br/>
           </Fade>
           <div className="mid-bg">
             <p>
@@ -150,9 +147,6 @@ export default class Home extends Component {
               </Flip>
               <br/>
             </ol>
-
-            <br/>
-
           </div>
         </div>
 

@@ -6,14 +6,13 @@
         background-clip: #ddd;
         overflow-x: hidden;
     }
-    
+
     .header-body{
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 400px;
         background-image: url(../../static/assets/images/topbg1.jpg);
-        //filter: opacity(22%);
 
         .first-logo{
             order: 1;
@@ -56,8 +55,8 @@
                 margin-right: none;
 
                 .top{
-                   // margin-top: -25px;
-                    //margin-left: -15px;
+                    margin-top: -25px;
+                    margin-left: -15px;
                     font-size: .8rem;
                 }
                 .mid{
@@ -82,7 +81,7 @@
                 margin-top: -25px;
             }
             .income{
-                margin-top: -50px;
+                //margin-top: -50px;
                 padding: 10px;
                 box-shadow: none;
                 border-bottom: solid #00c274;

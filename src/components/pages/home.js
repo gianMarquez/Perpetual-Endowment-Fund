@@ -29,9 +29,12 @@ export default class Home extends Component {
           <div className="square">
           <Slide right>
             <div className="top">
-              <b>Instrument:</b> &emsp; Secured Promissory Note.<br/>
-              <b>Security:</b> &emsp; &emsp; Senior position in an undivided interest in the pool of ISA’s. <a href="#security">(See below).</a><br/>
-              <b>Amount:</b> &emsp; &emsp; $100,000 or more.<br/>             
+              <div className ="isa"><b>Instrument:</b></div> 
+              <div className ="isa">Secured Promissory Note. <br/></div>
+              <div className ="isa"><b>Security:</b></div>
+              <div className ="isa"> Senior position in an undivided interest in the pool of ISA’s <a href="#security">(See below).</a></div>
+              <div className ="isa"><b>Amount:</b></div>
+              <div className ="isa">$100,000 or more.</div>             
             </div>
             <div className="mid">
               The three term / yield options:
@@ -71,10 +74,11 @@ export default class Home extends Component {
             </p>
             
             <ol>
-
+            <b>
             <br/>
             
             <Flip top>
+              
                 <li>
                   Bottega’s block of ISA’s consists of hundreds of smaller contracts, making them highly resistant to individual contract issues.
                 </li>
@@ -146,6 +150,7 @@ export default class Home extends Component {
                 </li>
               </Flip>
               <br/>
+              </b>
             </ol>
           </div>
         </div>

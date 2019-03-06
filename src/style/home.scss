@@ -16,7 +16,6 @@
         font-family: 'Roboto Mono', monospace;
         text-align: center;
         font-size: 1.8em;
-        //text-shadow: 2px 5px rgba(0, 0, 0, 0.32);
         margin-bottom: 15px;
     }
 
@@ -35,6 +34,12 @@
 
         .top{
             margin: 15px 50px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            
+            .isa{
+                padding: 10px;
+            }
             a{
                 text-decoration: none;
                 color: #fff;
@@ -62,15 +67,8 @@
         font-size: 1.1em;
     }
 
-    .income{
-        border-bottom: solid #00c274;
-        border-radius: 0px 10px;
-
-    }
-
     .mid-bg{
             background-image: url(../../static/assets/images/demo4.jpg);
-            //background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;

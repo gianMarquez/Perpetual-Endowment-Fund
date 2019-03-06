@@ -15,7 +15,7 @@ export default class Footer extends Component {
         </div>
         <div className="address">
           <a href="https://www.google.com/maps/place/341+S+Main+St+%23200,+Alpine,+UT+84004/@40.4488336,-111.7775725,19.17z/data=!4m5!3m4!1s0x87527f58e1e24abb:0x4c0a21b3d5cd2be8!8m2!3d40.4489999!4d-111.7776124" target="blank">
-            <i>341 South Main Street, Suite 200, Alpine, Utah 84004</i>
+            <i>Equity Address: 341 South Main Street, Suite 200, Alpine, Utah 84004</i>
           </a>       
         </div>
       </div>

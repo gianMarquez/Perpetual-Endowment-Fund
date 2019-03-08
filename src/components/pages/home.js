@@ -29,19 +29,30 @@ export default class Home extends Component {
           <div className="square">
           <Slide right>
             <div className="top">
-              <div className ="isa"><b>Instrument:</b></div> 
+              <div className ="isa1"><b>Instrument:</b></div> 
               <div className ="isa">Secured Promissory Note. <br/></div>
-              <div className ="isa"><b>Security:</b></div>
+              <div className ="isa1"><b>Security:</b></div>
               <div className ="isa"> Senior position in an undivided interest in the pool of ISA’s <a href="#security">(See below).</a></div>
-              <div className ="isa"><b>Amount:</b></div>
+              <div className ="isa1"><b>Amount:</b></div>
               <div className ="isa">$100,000 or more.</div>             
             </div>
             <div className="mid">
               The three term / yield options:
             </div>
             <div className="bot">
-              <b>Term:</b>  &emsp;&emsp;&emsp;&nbsp;&nbsp;2 years | &emsp;3 years | &emsp; 4 years <br/>
-              <b>Interest:</b> &emsp;&emsp;&emsp;&nbsp;&nbsp;8% &nbsp;&nbsp;| &emsp; &emsp; &nbsp;9% | &emsp; &emsp; &nbsp;10%
+              <div className="bot1"><b>Term:</b></div>
+               <div className="bot2">
+                  <dv>2 years</dv>
+                  <dv>3 years</dv>
+                  <dv>4 years</dv>
+               </div>
+               
+              <div className="bot1"><b>Interest:</b></div> 
+                <div className="bot2">
+                  <div>8% </div>
+                  <div>9% </div>
+                  <div>10%</div>
+                </div> 
             </div>
           </Slide>
           </div>

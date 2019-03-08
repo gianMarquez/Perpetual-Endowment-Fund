@@ -39,6 +39,7 @@
             
             .isa{
                 padding: 10px;
+            
             }
             a{
                 text-decoration: none;
@@ -51,9 +52,17 @@
         }
         .mid{
             margin: 15px 50px;
+            
         }
         .bot{
             margin: 30px 50px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .bot2{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
         }
     }
 }
@@ -70,12 +79,13 @@
     }
 
     .mid-bg{
+            background-image: url(../../static/assets/images/demo3.jpg);
+            background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             margin-left: -6vw;
             margin-right: -6vw;
-            color: #0F1020;
 
             p{
                 margin-left: 6vw;
@@ -84,8 +94,7 @@
     }
 
     ol{  
-       background-color: #1C1C1C;      
-       color: #ddd;
+       color: black;
  
 
         li{

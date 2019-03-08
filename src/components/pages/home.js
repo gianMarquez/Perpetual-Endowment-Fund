@@ -42,9 +42,9 @@ export default class Home extends Component {
             <div className="bot">
               <div className="bot1"><b>Term:</b></div>
                <div className="bot2">
-                  <dv>2 years</dv>
-                  <dv>3 years</dv>
-                  <dv>4 years</dv>
+                  <div>2 years</div>
+                  <div>3 years</div>
+                  <div>4 years</div>
                </div>
                
               <div className="bot1"><b>Interest:</b></div> 

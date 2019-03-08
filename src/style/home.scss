@@ -61,6 +61,8 @@
 .second-txt{
     margin: 0px 6vw;
     justify-content: space-between;
+    background-color: #F9F9F9;
+
 
     h2{
         font-family: 'Roboto Mono', monospace;
@@ -68,7 +70,6 @@
     }
 
     .mid-bg{
-            background-image: url(../../static/assets/images/demo4.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -83,9 +84,12 @@
     }
 
     ol{  
-       margin-left: 150px;
+       background-color: #1C1C1C;      
+       color: #ddd;
+ 
 
         li{
+            margin-left: 150px;
             object-fit: cover;
             line-height: 5vh;
             font-size: 1.4rem;  

@@ -74,7 +74,7 @@ export default class Home extends Component {
             </p>
             
             <ol>
-            <b>
+            
             <br/>
             
             <Flip top>
@@ -150,7 +150,7 @@ export default class Home extends Component {
                 </li>
               </Flip>
               <br/>
-              </b>
+            
             </ol>
           </div>
         </div>

@@ -82,28 +82,24 @@
     }
 
     .mid-bg{
-            background-image: url(../../static/assets/images/demo2.jpg);
+            //background-image: url(../../static/assets/images/demo2.jpg);
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             margin-left: -6vw;
             margin-right: -6vw;
-             img{
-                 filter: brightness(120%)
-             }
-
 
             p{
                 margin-left: 6vw;
                 margin-right: 6vw; 
-                color: #DBDBDB;
+                color: black;
 
             }
     }
 
     ol{  
-       color: #DBDBDB;
+       color: black;
  
 
         li{

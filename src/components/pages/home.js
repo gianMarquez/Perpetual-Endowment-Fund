@@ -77,6 +77,7 @@ export default class Home extends Component {
           </Fade>
           <div className="mid-bg">
             <p>
+            <br/>
               Bottega’s students have the option to finance their coursework by executing an ISA. It must be noted these
               are <u>not</u> “student loans” in the traditional sense. ISA’s are, in essence, a joint venture between the student and
               the school with Bottega receiving a guaranteed percentage of the student’s gross income once they are hired
@@ -85,7 +86,6 @@ export default class Home extends Component {
             </p>
             
             <ol>
-            
             <br/>
             
             <Flip top>

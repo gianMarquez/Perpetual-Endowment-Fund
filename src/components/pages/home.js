@@ -4,7 +4,7 @@ import Footer from "../nav-components/footer"
 import Slide from 'react-reveal/Slide';
 import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
-
+import Bg from "../../../static/assets/images/demo5.jpg"
 
 export default class Home extends Component {
   render() {
@@ -84,6 +84,7 @@ export default class Home extends Component {
               and become an employed worker. There are significant terms that increase the security and value of these ISA
               assets over more traditional loans, including:
             </p>
+          
             
             <ol>
             <br/>
@@ -161,7 +162,6 @@ export default class Home extends Component {
                 </li>
               </Flip>
               <br/>
-            
             </ol>
           </div>
         </div>

@@ -80,9 +80,9 @@
     .income{
         padding: 15px;
     }
-
     .mid-bg{
-            background-image: url(../../static/assets/images/demo4.png);
+            content: "";
+            background-image: url(../../static/assets/images/demo6.jpg);
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -93,14 +93,12 @@
             p{
                 margin-left: 6vw;
                 margin-right: 6vw; 
-                color: black;
-
+                color: white;
             }
     }
 
     ol{  
-       color: black;
- 
+       color: #ffffff;
 
         li{
             margin-left: 150px;

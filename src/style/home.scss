@@ -82,23 +82,25 @@
     }
     .mid-bg{
             content: "";
-            background-image: url(../../static/assets/images/demo6.jpg);
+            background-image: url(../../static/assets/images/demo0.jpg);
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             margin-left: -6vw;
             margin-right: -6vw;
+ 
 
             p{
                 margin-left: 6vw;
                 margin-right: 6vw; 
-                color: white;
+                color: black;
+                font-weight: bolder;
             }
     }
 
     ol{  
-       color: #ffffff;
+       color: black;
 
         li{
             margin-left: 150px;
@@ -106,7 +108,7 @@
             line-height: 5vh;
             font-size: 1.4rem;  
             margin: 0px 6vw;
-
+            font-weight: bolder;
         }
     }
 }

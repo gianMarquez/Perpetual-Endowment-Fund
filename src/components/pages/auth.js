@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Login from "../auth/login";
-import loginImg from "../../../static/assets/images/login.jpg";
-
+import loginImg from "../../../static/assets/images/bottega-guy.jpg";
+import Blogo from "../../../static/assets/images/Bottega-logo.png"
 export default class Auth extends Component {
   constructor(props) {
     super(props);
@@ -30,10 +30,19 @@ export default class Auth extends Component {
         />
 
         <div className="right-column">
-          <Login
-            handleSuccessfulAuth={this.handleSuccessfulAuth}
-            handleUnsuccessfulAuth={this.handleUnsuccessfulAuth}
-          />
+          <div className="main-logo">
+            <img src={Blogo} alt="Bottega"/>
+          </div>
+          <div className="login-to-access">
+            <div> <br/> </div>
+            <div>
+              <Login
+              handleSuccessfulAuth={this.handleSuccessfulAuth}
+              handleUnsuccessfulAuth={this.handleUnsuccessfulAuth}
+              />
+            </div>
+            <div> <br/> </div>
+          </div>
         </div>
       </div>
     );

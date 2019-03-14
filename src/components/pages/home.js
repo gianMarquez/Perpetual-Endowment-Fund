@@ -4,7 +4,7 @@ import Footer from "../nav-components/footer"
 import Slide from 'react-reveal/Slide';
 import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
-import Bg from "../../../static/assets/images/demo5.jpg"
+//import Bg from "../../../static/assets/images/demo5.jpg"
 
 export default class Home extends Component {
   render() {
@@ -84,85 +84,91 @@ export default class Home extends Component {
               and become an employed worker. There are significant terms that increase the security and value of these ISA
               assets over more traditional loans, including:
             </p>
-          
-            
-            <ol>
+
             <br/>
-            
-            <Flip top>
-              
-                <li>
-                  Bottega’s block of ISA’s consists of hundreds of smaller contracts, making them highly resistant to individual contract issues.
-                </li>
-              </Flip>
+            <div className="mid-ol">
+              <div>
+                <ol>        
+                <Flip top>
+                  
+                    <li>
+                      Bottega’s block of ISA’s consists of hundreds of smaller contracts, making them highly resistant to individual contract issues.
+                    </li>
+                  </Flip>
 
-              <Flip top>
-                <li>
-                  ISA terms range from 24 to 48 monthly payments and generate greater revenues than standard amortization loans, increasing the revenue of an ISA contract over traditional loans.
-                </li>
-              </Flip>
-      
-              <Flip top>
-                <li>
-                  The additional $1 million each month will increase the value and security of the pool.
-                </li>
-              </Flip>
+                  <Flip top>
+                    <li>
+                      ISA terms range from 24 to 48 monthly payments and generate greater revenues than standard amortization loans, increasing the revenue of an ISA contract over traditional loans.
+                    </li>
+                  </Flip>
+          
+                  <Flip top>
+                    <li>
+                      The additional $1 million each month will increase the value and security of the pool.
+                    </li>
+                  </Flip>
 
-              <Flip top>
-                <li>
-                  There is a ready and established market for ISA contracts, allowing liquidation in under 90-days.
-                </li>
-              </Flip>
+                  <Flip top>
+                    <li>
+                      There is a ready and established market for ISA contracts, allowing liquidation in under 90-days.
+                    </li>
+                  </Flip>
 
-              <Flip top>
-                <li>
-                  Payments can be deducted directly from the employee’s paycheck and sent to Bottega, eliminating payment issues from individuals.
-                </li>
-              </Flip>
+                  <Flip top>
+                    <li>
+                      Payments can be deducted directly from the employee’s paycheck and sent to Bottega, eliminating payment issues from individuals.
+                    </li>
+                  </Flip>
 
-              <Flip top>
-                <li>
-                  The requirement is for a specific number of payments at a percentage of their gross income; hence, any unemployment only delays payment and does not reduce the obligation.
-                </li>
-              </Flip>
+                  <Flip top>
+                    <li>
+                      The requirement is for a specific number of payments at a percentage of their gross income; hence, any unemployment only delays payment and does not reduce the obligation.
+                    </li>
+                  </Flip>
 
-              <Flip top>
-                <li>
-                  Bankruptcy discharge is impossible due to the nature of revenue share contracts under U.C.C
-                </li>
-              </Flip>
+                  <Flip top>
+                    <li>
+                      Bankruptcy discharge is impossible due to the nature of revenue share contracts under U.C.C
+                    </li>
+                  </Flip>
 
-              <Flip top>
-                <li>
-                  Payment revenue increases over time as they get a raise or a better job.
-                </li>
-              </Flip>
+                  <Flip top>
+                    <li>
+                      Payment revenue increases over time as they get a raise or a better job.
+                    </li>
+                  </Flip>
 
-              <Flip top>
-                <li>
-                Bottega has multiple accreditations, dramatically improving the value of a graduate in the job market versus most non-accredited, post-secondary occupational training institutions.
-                </li>
-              </Flip>
+                  <Flip top>
+                    <li>
+                    Bottega has multiple accreditations, dramatically improving the value of a graduate in the job market versus most non-accredited, post-secondary occupational training institutions.
+                    </li>
+                  </Flip>
 
-              <Flip top>
-                <li>
-                  The market for Bottega’s graduates is highly underserved by almost 10 to 1, essentially guaranteeing an immediate job and starting the income stream.
-                </li>
-              </Flip>
+                  <Flip top>
+                    <li>
+                      The market for Bottega’s graduates is highly underserved by almost 10 to 1, essentially guaranteeing an immediate job and starting the income stream.
+                    </li>
+                  </Flip>
 
-              <Flip top>
-                <li>
-                  As the Fund manages the ISA’s, any potentially adverse financial situations of Bottega itself have no effect on the security pledge.
-                </li>
-              </Flip>
+                  <Flip top>
+                    <li>
+                      As the Fund manages the ISA’s, any potentially adverse financial situations of Bottega itself have no effect on the security pledge.
+                    </li>
+                  </Flip>
 
-              <Flip top>
-                <li>
-                The investor will receive monthly statements detailing their account and general status of the fund as a whole.
-                </li>
-              </Flip>
-              <br/>
-            </ol>
+                  <Flip top>
+                    <li>
+                    The investor will receive monthly statements detailing their account and general status of the fund as a whole.
+                    </li>
+                  </Flip>
+                  <br/>
+                </ol>
+              </div>
+
+              <div>
+                <br/>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -239,6 +245,8 @@ export default class Home extends Component {
           </Slide>
 
           </ul>
+          
+          <br/>
 
         </div>
  

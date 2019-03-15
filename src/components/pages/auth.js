@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Login from "../auth/login";
-import loginImg from "../../../static/assets/images/bottega-guy.jpg";
 import Blogo from "../../../static/assets/images/Bottega-logo.png"
 export default class Auth extends Component {
   constructor(props) {
@@ -22,12 +21,7 @@ export default class Auth extends Component {
   render() {
     return (
       <div className="auth-page-wrapper">
-        <div
-          className="left-column"
-          style={{
-            backgroundImage: `url(${loginImg})`
-          }}
-        />
+        <div className="left-column"> </div>
 
         <div className="right-column">
           <div className="main-logo">
@@ -48,3 +42,12 @@ export default class Auth extends Component {
     );
   }
 }
+/*
+ok 1 universal login
+no registration page
+username will be:
+PerpetualEndowment
+password will be:
+Botteg@1
+new database is fine
+*/

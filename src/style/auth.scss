@@ -3,9 +3,13 @@
     grid-template-columns: 1fr 1fr;
     height: 100vh;
 
-    .left-colum{
-        background-size: cover;
 
+    .left-column{
+        background-image: url(../../static/assets/images/half-girl.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .right-column{
         .main-logo img{
@@ -13,7 +17,7 @@
             margin-left: auto;
             margin-right: auto;
         }
-        
+
         .login-to-access{
             display: grid;
             grid-template-columns: 1fr;

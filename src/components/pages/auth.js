@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Login from "../auth/login";
 import Blogo from "../../../static/assets/images/Bottega-logo.png"
+
 export default class Auth extends Component {
   constructor(props) {
     super(props);
@@ -33,7 +34,7 @@ export default class Auth extends Component {
               <Login
               handleSuccessfulAuth={this.handleSuccessfulAuth}
               handleUnsuccessfulAuth={this.handleUnsuccessfulAuth}
-              />
+            />
             </div>
             <div> <br/> </div>
           </div>
@@ -42,12 +43,3 @@ export default class Auth extends Component {
     );
   }
 }
-/*
-ok 1 universal login
-no registration page
-username will be:
-PerpetualEndowment
-password will be:
-Botteg@1
-new database is fine
-*/

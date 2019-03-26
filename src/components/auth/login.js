@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import axios from "axios";
+import Db from "../firebaseConfig";
 
 export default class Login extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      email: "",
+      user: "",
       password: "",
       errorText: ""
     };
@@ -25,10 +26,10 @@ export default class Login extends Component {
   handleSubmit(event) {
     axios
       .post(
-        "https://api.devcamp.space/sessions",
+        {Db},
         {
           client: {
-            email: this.state.email,
+            user: this.state.user,
             password: this.state.password
           }
         },
@@ -39,7 +40,7 @@ export default class Login extends Component {
           this.props.handleSuccessfulAuth();
         } else {
           this.setState({
-            errorText: "Wrong email or password"
+            errorText: "Wrong user or password"
           });
           this.props.handleUnsuccessfulAuth();
         }
@@ -63,10 +64,10 @@ export default class Login extends Component {
 
         <form onSubmit={this.handleSubmit}>
           <input
-            type="email"
-            name="email"
-            placeholder="Your email"
-            value={this.state.email}
+            type="user"
+            name="user"
+            placeholder="Your user"
+            value={this.state.user}
             onChange={this.handleChange}
           />
 

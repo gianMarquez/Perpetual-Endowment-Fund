@@ -1,68 +1,68 @@
 .header-body{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    align-content: center;
-    height: 340px;
-    background-color: #FCFCFC;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 2rem;
-    font-weight: 580;
-    box-shadow: 10px 38px 65px -11px rgba(0,0,0,0.09);
-    margin-bottom: 15px;
-    margin-top: -25px;
-    background-image: url(../../static/assets/images/top4.jpg);
-    background-position: center;
-    background-position-y: 29%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  align-content: center;
+  height: 340px;
+  background-color: #FCFCFC;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2rem;
+  font-weight: 580;
+  box-shadow: 10px 38px 65px -11px rgba(0,0,0,0.09);
+  margin-bottom: 15px;
+  margin-top: -25px;
+  background-image: url(../../static/assets/images/top4.jpg);
+  background-position: center;
+  background-position-y: 29%;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    .first-logo{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-       
-        h1{
-          font-family: 'Open Sans', sans-serif;
-          text-align: center;
-          font-size: 0.99rem;
-          margin-left: 65px;
-          margin-top: -20px;
-          color: #ddd;
-        }
-        img{
-            height: 170px;
-            width: 250px;
+  .first-logo{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+     
+      h1{
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 0.99rem;
+        margin-left: 65px;
+        margin-top: -20px;
+        color: #ddd;
+      }
+      img{
+          height: 170px;
+          width: 250px;
 
-        }
-    }
-    
-    .bottega-logo img{
-        height: 90px;
-        margin-bottom: -15px;
-        margin-left: 10%;
-    }
+      }
+  }
+  
+  .bottega-logo img{
+      height: 90px;
+      margin-bottom: -15px;
+      margin-left: 10%;
+  }
 }  
-  
-  .typewriter h1 {
-    color: #DBDBDB;
-    font-size: 2rem;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    overflow: hidden; 
-    border-right: .15em solid black; 
-    white-space: nowrap; 
-    margin-right: 3% auto; 
-    letter-spacing: .10em; 
-    animation: 
-      typing 3.5s steps(25, end),
-      blink-caret .5s step-end infinite;
-  }
-  
-  
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
+
+.typewriter h1 {
+  color: #DBDBDB;
+  font-size: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden; 
+  border-right: .15em solid black; 
+  white-space: nowrap; 
+  margin-right: 3% auto; 
+  letter-spacing: .10em; 
+  animation: 
+    typing 3.5s steps(25, end),
+    blink-caret .5s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}

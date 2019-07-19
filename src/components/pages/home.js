@@ -22,7 +22,7 @@ export default class Home extends Component {
           endowment management entity for the education company, Bottega LLC, which includes a 4-year, accredited
           college, an online learning platform, and other assets. In this capacity, the Fund is seeking to issue secured
           promissory notes to select investors in order to monetize Bottega’s income stream from semi-liquid, income
-          producing assets. The notes would be secured by these assets. The Fund currently has over $4 million in such
+          producing assets. The notes would be secured by these assets. The Fund currently has over $8 million in such
           assets, with an approximately $1 million per month increase scheduled for the year. The proposed terms are
           below.</p>
 
